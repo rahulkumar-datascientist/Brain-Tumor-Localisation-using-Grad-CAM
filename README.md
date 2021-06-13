@@ -12,6 +12,10 @@ BACKGROUND - Brain Tumors are complex. There are lot of abnormalities - Tumors c
 - The dataset contains 3 folders/ Image classes: YES (Tumor is present), NO(Tumor is absent) and PRED(mix of both image classes) which contains 3060 Brain MRI Images. (1500 each for YES and NO class, 60 for PRED class)
 - Each of the image are reshaped to size (224, 224) before training the CNN model (Present in SECTION - 2).
 
+<p align="center">
+  <img src="ReadMe_images/Brain_Tumor.PNG" width=500>
+</p>
+
 ### Preparing the dataset for CNN model
 
 - The dataset downloaded from the above mentioned link was downloaded as "archive.zip" file.
@@ -41,5 +45,10 @@ To Identify neurons which are strongly correlated with the class label
 
 ## Part 4: Object Localisation using GRAD-CAM
 By using a global average pooling (GAP) layer at the end of a neural network instead of a fully-connected layer, we get excellent localization, this gives us an idea about where neural network pay attention.
+
+<p align="center">
+  <img src="ReadMe_images/Tumor.PNG" width=800>
+  <img src="ReadMe_images/No_Tumor.PNG" width=800>
+</p>
 
 Reference: http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf
